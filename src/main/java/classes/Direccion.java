@@ -3,16 +3,15 @@ package classes;
 import com.google.gson.annotations.SerializedName;
 
 public class Direccion {
-
-    @SerializedName("calle")
     public String calle;
-    @SerializedName("numero")
+
     public int numero;
-    @SerializedName("ciudad")
+
     public String ciudad;
-    @SerializedName("codigo_postal")
+
+    @SerializedName("codigoPostal")
     public int codigo_postal;
-    @SerializedName("pais")
+
     public String pais;
 
     public Direccion(String calle, int numero, String ciudad, int codigo_postal, String pais) {
